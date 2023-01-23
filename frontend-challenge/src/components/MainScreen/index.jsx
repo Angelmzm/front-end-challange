@@ -26,41 +26,37 @@ export const MainScreen = () => {
             <p>
               Amanhã:
               <b>
-                {" "}
                 {oneDay.toLocaleString("pt-BR", {
                   style: "currency",
                   currency: "BRL",
-                })}{" "}
+                })}
               </b>
             </p>
             <p>
               Em 15 dias:
               <b>
-                {" "}
                 {fifteenDays.toLocaleString("pt-BR", {
                   style: "currency",
                   currency: "BRL",
-                })}{" "}
+                })}
               </b>
             </p>
             <p>
               Em 30 dias:
               <b>
-                {" "}
                 {thirtyDays.toLocaleString("pt-BR", {
                   style: "currency",
                   currency: "BRL",
-                })}{" "}
+                })}
               </b>
             </p>
             <p>
               Em 90 dias:
               <b>
-                {" "}
                 {ninetyDays.toLocaleString("pt-BR", {
                   style: "currency",
                   currency: "BRL",
-                })}{" "}
+                })}
               </b>
             </p>
           </div>
